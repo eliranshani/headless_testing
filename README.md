@@ -1,7 +1,7 @@
 # Headless testing using chrome "headless"
 Running Selenium tests under py.test convention with docker support.
 
-![Carpe Diem - Seize the day](files/shark.png?raw=true "Carpe Diem")
+![Carpe Diem - Seize the day](files/shark.png "Carpe Diem")
 
 ## Requirements
 
