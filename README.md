@@ -36,7 +36,8 @@ This project allows other developers to understand how to:
 
 ## Links
 
-[Additional info](./additional_info.md)
+[PhantomJS single maintainer stepping down](https://groups.google.com/forum/#!topic/phantomjs/9aI5d-LDuNE)
+[Chrome headless youtube announcement](https://www.youtube.com/watch?v=zNoc4zEkWPo)
 
 ## Contributors
 
