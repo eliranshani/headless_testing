@@ -8,7 +8,7 @@ def pytest_addoption(parser):
 
 
 @pytest.yield_fixture(scope="function", autouse=True)
-def driver(request):
+def chrome(request):
 
     browser = request.config.getoption("--driver")
 
