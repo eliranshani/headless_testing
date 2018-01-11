@@ -24,6 +24,7 @@ $ ./scripts/run-tests.bash
 ```
 
 # Run with extra py.test arguments
+```bash
 $ ./scripts/run-tests.bash --env=$ENV tests/test_purhcase_tickets.py --verbose
 ```
 
