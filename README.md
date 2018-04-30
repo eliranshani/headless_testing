@@ -36,7 +36,10 @@ This project allows other developers to understand how to:
 
 ## Links
 
+[How to Automate Testing Using Selenium WebDriver, Jenkins and Allure](https://www.blazemeter.com/blog/how-automate-testing-using-selenium-webdriver-jenkins-and-allure)
+
 [PhantomJS single maintainer stepping down](https://groups.google.com/forum/#!topic/phantomjs/9aI5d-LDuNE)
+
 [Chrome headless youtube announcement](https://www.youtube.com/watch?v=zNoc4zEkWPo)
 
 ## Contributors
