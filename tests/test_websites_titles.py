@@ -10,14 +10,10 @@ from selenium.webdriver.common.by import By
     ("https://www.blazemeter.com/", "JMeter and Performance Testing for DevOps | BlazeMeter"),
     ("https://www.theverge.com/", "The Verge"),
 ])
-def test_check_website_titles(chrome, firefox, url, title):
+def test_check_website_titles(chrome, url, title):
     chrome.get(url)
     chrome.find_element(By.TAG_NAME, "body")
     assert title in chrome.title
-
-    firefox.get(url)
-    firefox.find_element(By.TAG_NAME, "body")
-    assert title in firefox.title
 
 
 
