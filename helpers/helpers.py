@@ -9,7 +9,7 @@ def find_element(driver, by_type, locator):
         return WebDriverWait(driver, delay).until(EC.presence_of_element_located((by_type, locator)))
 
     except TimeoutException:
-        print "element {} was not found".format(locator)
+        print("element {} was not found".format(locator))
 
 
 def click(driver, by_type, locator):

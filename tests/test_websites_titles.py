@@ -7,7 +7,7 @@ from selenium.webdriver.common.by import By
     ("http://www.brandlovescore.com/", "Brand Love Score"),
     ("https://www.polygon.com/", "Polygon"),
     ("https://thenextweb.com/", "TNW"),
-    ("https://www.blazemeter.com/", "JMeter and Performance Testing for DevOps | BlazeMeter"),
+    ("https://www.blazemeter.com/", "BlazeMeter"),
     ("https://www.theverge.com/", "The Verge"),
 ])
 def test_check_website_titles(chrome, url, title):
