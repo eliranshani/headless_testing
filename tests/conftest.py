@@ -20,10 +20,13 @@ def chrome(request):
     chrome_options = webdriver.ChromeOptions()
     if headless == "true":
         # Set headless flag to true
-        chrome_options.add_argument("headless")
+        chrome_options.add_argument("--headless")
+        chrome_options.add_argument("--no-proxy-server")
+        chrome_options.add_argument("--proxy-server='direct://'")
+        chrome_options.add_argument("--proxy-bypass-list=*")
 
     # Initiate Chrome
-    browser = webdriver.Chrome(chrome_options=chrome_options)
+    browser = webdriver.Chrome(options=chrome_options)
 
     yield browser
 
